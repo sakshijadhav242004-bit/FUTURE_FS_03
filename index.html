@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Bites</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Urban Bites 🍽️</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Delicious Food, Delivered Fresh</h2>
+    <p>Experience taste like never before</p>
+    <button onclick="orderNow()">Order Now</button>
+</section>
+
+<section id="menu">
+    <h2>Our Specials</h2>
+    <div class="menu">
+        <div class="card">
+            <h3>🍕 Pizza</h3>
+            <p>Loaded with cheese & toppings</p>
+        </div>
+        <div class="card">
+            <h3>🍔 Burger</h3>
+            <p>Juicy & crispy delight</p>
+        </div>
+        <div class="card">
+            <h3>🍝 Pasta</h3>
+            <p>Authentic Italian taste</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We serve fresh, hygienic and tasty food with love. Our goal is to give the best dining experience.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Urban Bites</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
